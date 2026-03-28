@@ -1,0 +1,1 @@
+{"sessionId":"d3b89b","runId":"post-fix","location":"instrument.js:after-dotenv-multi","message":"dotenv package + parent paths","data":{"hypothesisId":"A","cwd":"/Users/mimi/Desktop/Projects/sentry-playground","dsnLength":95,"envInCwd":false,"envInPkg":false,"envInParent":true},"timestamp":1774197500626}

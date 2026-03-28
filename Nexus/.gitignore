@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.bun/
+.env
+.env*.local
+docker/nginx/.htpasswd
+.DS_Store
+bun.lockb

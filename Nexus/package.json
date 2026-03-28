@@ -1,0 +1,50 @@
+{
+  "name": "nexus",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "bun@1.2.5",
+  "scripts": {
+    "dev": "bunx --bun next dev",
+    "build": "bunx --bun next build",
+    "start": "bunx --bun next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:generate": "bunx drizzle-kit generate",
+    "db:migrate": "bunx drizzle-kit migrate",
+    "db:studio": "bunx drizzle-kit studio",
+    "db:seed": "bun src/lib/db/seed.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/react": "^3.0.140",
+    "@langchain/core": "^1.1.36",
+    "@langchain/langgraph": "^1.2.5",
+    "@langchain/langgraph-checkpoint-postgres": "^1.0.1",
+    "@sentry/nextjs": "^9.47.1",
+    "ai": "^6.0.138",
+    "drizzle-orm": "^0.40.0",
+    "next": "canary",
+    "octokit": "^5.0.5",
+    "ollama-ai-provider-v2": "^3.5.0",
+    "pg": "^8.20.0",
+    "postgres": "^3.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2",
+    "zod-to-json-schema": "^3.25.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@types/node": "^22.13.10",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "drizzle-kit": "^0.30.6",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "canary",
+    "eslint-config-prettier": "^10.0.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
